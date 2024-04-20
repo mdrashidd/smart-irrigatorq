@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000; /* Setting font color to black */
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #4682B4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #3571a8;
+}
+
+.services {
+    padding: 50px 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+}
+
+.service-item {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.service-item img {
+    max-width: 30%;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
